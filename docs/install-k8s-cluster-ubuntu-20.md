@@ -8,6 +8,7 @@ This documentation guides you in setting up a cluster with one master node and o
 |----|----|----|----|----|----|
 |Master|k8s-cp1|10.1.10.20|Ubuntu 20.04|4G|4|
 |Worker|k8s-n1|10.1.10.21 |Ubuntu 20.04|4G|4|
+|Worker|k8s-n2|10.1.10.22|Ubuntu 20.04|4G|4|
 
 ## On both Kmaster and Kworker
 ##### Login as `root` user
