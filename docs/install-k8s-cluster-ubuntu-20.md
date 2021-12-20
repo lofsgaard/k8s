@@ -77,6 +77,11 @@ mkdir -p $HOME/.kube
 sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ```
+Copy file to management machine
+```
+mkdir .kube
+scp fjs@10.1.10.20:~/.kube/config .kube/
+```
 
 ## On Kworker
 ##### Join the cluster
